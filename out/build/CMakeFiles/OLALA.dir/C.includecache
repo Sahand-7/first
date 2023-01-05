@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sahand/projects/Adder/adder.h
+
+/home/sahand/projects/main.c
+stdio.h
+-
+Adder/adder.h
+/home/sahand/projects/Adder/adder.h
+

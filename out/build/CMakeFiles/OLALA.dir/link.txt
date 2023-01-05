@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/OLALA.dir/main.c.o  -o OLALA Adder/libadder.a 
