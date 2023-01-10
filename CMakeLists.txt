@@ -4,7 +4,6 @@ project(OLALA)
 
 add_executable(${PROJECT_NAME} main.c)
 
-
 add_subdirectory(Adder)
 
 target_include_directories(${PROJECT_NAME} PUBLIC Adder)
@@ -12,3 +11,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC Adder)
 link_directories(${PROJECT_NAME} PUBLIC Adder)
 
 target_link_libraries(${PROJECT_NAME} adder)
+
+
+hahahahahhaahha
